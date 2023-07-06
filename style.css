@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+  border: 2px solid black;
+  padding: 2rem 1rem;
+  min-height: 3em;
+  resize: both;
+  height: 200px;
+}
+
+p {
+  margin: 0;
+}
+
+select {
+  font-size: 24px;
+  border: 0px;
+  outline: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
